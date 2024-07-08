@@ -252,3 +252,35 @@ countLetter();
 
 // Question 14
 
+document.write("<br>" + "<br>");
+
+var pi = 3.142;
+
+function calcCircumference() {
+  var radius = +prompt("Enter a radius value for circle circumference:")
+
+  if (radius && radius) {
+    var circumference = 2 * pi * radius;
+    document.write('The circumference is: ' + circumference.toFixed(2));
+  } else {
+    document.write('Please enter a valid radius.');
+  }
+}
+
+calcCircumference();
+
+document.write("<br>" + "<br>");
+
+function calcArea() {
+  var radiuss = +prompt("Enter a radius value for circle area:")
+
+  if (radiuss && radiuss) {
+    var area = pi * radiuss * radiuss;
+    document.write('The area is: ' + area.toFixed(2));
+  } else {
+    document.write('Please enter a valid radius.');
+  }
+}
+
+calcArea();
+
